@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GhZznwNLRAU=",
+  "success": true,
+  "projectFilePath": "D:\\Programs\\Code\\LibraryManage\\LibraryManage.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\21070\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

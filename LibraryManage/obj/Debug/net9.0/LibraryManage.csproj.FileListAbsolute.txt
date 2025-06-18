@@ -1,0 +1,17 @@
+D:\Programs\Code\LibraryManage\bin\Debug\net9.0\LibraryManage.exe
+D:\Programs\Code\LibraryManage\bin\Debug\net9.0\LibraryManage.deps.json
+D:\Programs\Code\LibraryManage\bin\Debug\net9.0\LibraryManage.runtimeconfig.json
+D:\Programs\Code\LibraryManage\bin\Debug\net9.0\LibraryManage.dll
+D:\Programs\Code\LibraryManage\bin\Debug\net9.0\LibraryManage.pdb
+D:\Programs\Code\LibraryManage\bin\Debug\net9.0\Newtonsoft.Json.dll
+D:\Programs\Code\LibraryManage\obj\Debug\net9.0\LibraryManage.csproj.AssemblyReference.cache
+D:\Programs\Code\LibraryManage\obj\Debug\net9.0\LibraryManage.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programs\Code\LibraryManage\obj\Debug\net9.0\LibraryManage.AssemblyInfoInputs.cache
+D:\Programs\Code\LibraryManage\obj\Debug\net9.0\LibraryManage.AssemblyInfo.cs
+D:\Programs\Code\LibraryManage\obj\Debug\net9.0\LibraryManage.csproj.CoreCompileInputs.cache
+D:\Programs\Code\LibraryManage\obj\Debug\net9.0\LibraryM.2217648B.Up2Date
+D:\Programs\Code\LibraryManage\obj\Debug\net9.0\LibraryManage.dll
+D:\Programs\Code\LibraryManage\obj\Debug\net9.0\refint\LibraryManage.dll
+D:\Programs\Code\LibraryManage\obj\Debug\net9.0\LibraryManage.pdb
+D:\Programs\Code\LibraryManage\obj\Debug\net9.0\LibraryManage.genruntimeconfig.cache
+D:\Programs\Code\LibraryManage\obj\Debug\net9.0\ref\LibraryManage.dll
