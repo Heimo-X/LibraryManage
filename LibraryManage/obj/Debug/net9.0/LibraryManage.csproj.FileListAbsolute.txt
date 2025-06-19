@@ -15,3 +15,4 @@ D:\Programs\Code\LibraryManage\obj\Debug\net9.0\refint\LibraryManage.dll
 D:\Programs\Code\LibraryManage\obj\Debug\net9.0\LibraryManage.pdb
 D:\Programs\Code\LibraryManage\obj\Debug\net9.0\LibraryManage.genruntimeconfig.cache
 D:\Programs\Code\LibraryManage\obj\Debug\net9.0\ref\LibraryManage.dll
+D:\Programs\Code\LibraryManage\obj\Debug\net9.0\LibraryManage.sourcelink.json
