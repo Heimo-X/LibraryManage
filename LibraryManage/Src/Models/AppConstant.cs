@@ -1,4 +1,4 @@
-namespace LibraryManage.Src.Modules;
+namespace LibraryManage.Src.Models;
 
 /// <summary>
 /// 定义应用程序中使用的常量。

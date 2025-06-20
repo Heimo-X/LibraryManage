@@ -1,5 +1,5 @@
-﻿using LibraryManage.Src.Modules;
-using System; // 确保引入 System 命名空间
+﻿using LibraryManage.Src.Models;
+using System;
 
 namespace LibraryManage;
 
@@ -7,44 +7,64 @@ class Program
 {
     static void Main(string[] args)
     {
-        // 使用 AppConstant 定义的文件路径初始化 BookManager
-        BookManager manager = new BookManager(AppConstant.FilePath);
+        var manager = new BookManager(AppConstant.FilePath);
 
         while (true)
         {
-            Console.Clear(); // 清空控制台
-            System.Console.WriteLine("""
-                1.增添书目
-                2.删减书目
-                3.展示书目
-                4.搜索书目
-                5.退出
-                """);
+            Console.Clear();
+            PrintMenu();
 
-            System.Console.Write("请输入你的操作选择（输入序号）：");
-            string? choice = Console.ReadLine(); // 使用可空引用类型
+            Console.Write("请输入你的操作选择（输入序号）：");
+            string? choice = Console.ReadLine()?.Trim();
 
             switch (choice)
             {
                 case "1":
-                    manager.AddBook(); // 调用添加书籍方法
+                    manager.AddBook();
                     break;
                 case "2":
-                    manager.RemoveBook(); // 调用删除书籍方法
+                    manager.RemoveBook();
                     break;
                 case "3":
-                    manager.DisplayBooks(); // 调用展示书籍方法
+                    manager.DisplayBooks();
                     break;
                 case "4":
-                    manager.SearchBooks(); // 调用搜索书籍方法
+                    manager.SearchBook();
                     break;
                 case "5":
-                    return; // 退出程序
+                    ExitApp();
+                    return;
                 default:
-                    System.Console.Write("\n无效指令!请重新输入……");
-                    Console.ReadKey(); // 等待用户按键继续
+                    Console.WriteLine("\n无效指令!请重新输入……");
+                    Console.ReadKey();
                     break;
             }
         }
+    }
+
+    /// <summary>
+    /// 打印菜单选项
+    /// </summary>
+    static void PrintMenu()
+    {
+        Console.WriteLine("""
+            ┌───────────────┐
+            │ 图书管理系统  │
+            └───────────────┘
+            1. 增添书目
+            2. 删减书目
+            3. 展示书目
+            4. 搜索书目
+            5. 退出系统
+            """);
+    }
+
+    /// <summary>
+    /// 退出程序时显示告别信息
+    /// </summary>
+    static void ExitApp()
+    {
+        Console.WriteLine("\n感谢使用图书管理系统！再见～");
+        Thread.Sleep(800); // 稍作停顿
     }
 }

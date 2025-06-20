@@ -1,6 +1,6 @@
 using System; // 确保引入 System 命名空间
 
-namespace LibraryManage.Src.Modules;
+namespace LibraryManage.Src.Models;
 
 /// <summary>
 /// 表示图书馆中的一本书籍。
